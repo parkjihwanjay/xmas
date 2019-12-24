@@ -34,7 +34,7 @@ export default {
 <style>
 #app{
   width : 100%;
-  min-height: 604px;
+  /* min-height: 604px; */
 }
 #heart{
   width : 307px;
