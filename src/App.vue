@@ -62,6 +62,7 @@ export default {
   width : 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position:absolute; 
   bottom:0px;
 }
@@ -80,5 +81,18 @@ export default {
   height: 200px;
   animation : pulse 1s ease infinite;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 375px){
+    .couple{
+    width : 80px;
+    height: 107px;
+  }
+
+    .xmas-tree{
+    width : 100px;
+    height : 145px;
+  }
+
 }
 </style>
